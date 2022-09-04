@@ -1,0 +1,403 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="939" id="Tests/Stubs/TRIMAIN_TRITST_01.stub" stubtype="Program" target="TRITST" token="10000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: 2021/11/24 14:16:11</stub:description>
+  <stub:stubdata id="0" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F7F8F9</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F7F8F9</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F6F3</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F6F3</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F3F4</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F3F4</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F4F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3F6</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3F6</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F5</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="TRITST">
+    <stub:interface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRITST.interface#Tests/Interfaces/TRIMAIN_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F4</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_WORK-REC.listructure#Tests/Structures/TRIMAIN_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F4</properties:property>
+          <properties:property name="address" type="string">37CE0150</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#Tests/Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4</properties:property>
+          <properties:property name="address" type="string">37CE0148</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="939" id="Tests/Stubs/TRIMAIN_TRIRPT_01.stub" stubtype="Program" target="TRIRPT" token="30000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: 2021/11/24 14:26:46</stub:description>
+  <stub:stubdata id="0" name="TRIRPT">
+    <stub:interface>../Interfaces/TRIMAIN_TRIRPT.interface#Tests/Interfaces/TRIMAIN_TRIRPT.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMAIN_TRIRPT.interface#Tests/Interfaces/TRIMAIN_TRIRPT.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure#Tests/Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE" id="arg0.NAME_N_CNTR_TABLE">
+        <properties:properties>
+          <properties:property name="value" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F2C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F1E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F5C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F3</properties:property>
+          <properties:property name="address" type="string">37CE00D8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure#Tests/Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE" id="arg0.NAME_N_CNTR_TABLE">
+        <properties:properties>
+          <properties:property name="value" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F2C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F1E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F5C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F3</properties:property>
+          <properties:property name="address" type="string">37CE00D8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

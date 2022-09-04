@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/TRITST_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase1" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F4F5</properties:property>
+            <properties:property name="expectedValue" type="string">F3F4F5</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase2" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F7F8F9</properties:property>
+            <properties:property name="expectedValue" type="string">F7F8F9</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase3" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F5F6F3</properties:property>
+            <properties:property name="expectedValue" type="string">F5F6F3</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase4" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F3F4</properties:property>
+            <properties:property name="expectedValue" type="string">F2F3F4</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase5" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F4F5</properties:property>
+            <properties:property name="expectedValue" type="string">F3F4F5</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase6" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F4F4F5</properties:property>
+            <properties:property name="expectedValue" type="string">F4F4F5</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F2</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase7" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F5F5F5</properties:property>
+            <properties:property name="expectedValue" type="string">F5F5F5</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F1</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase8" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F3F6</properties:property>
+            <properties:property name="expectedValue" type="string">F3F3F6</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F4</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase9" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F5F5F5</properties:property>
+            <properties:property name="expectedValue" type="string">F5F5F5</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F1</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase10" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F1F2F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F2F3</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F4</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="TRITST" encoding="939" entrypoint="TRITST" id="Tests/Scenarios/TRITST_Scenario.testscenario%23TRITSTCase11" target="TRITST">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697363000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRITST.interface#Tests/Interfaces/TRITST.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRITST_TST-REC.listructure#Tests/Structures/TRITST_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F1F2F4</properties:property>
+            <properties:property name="expectedValue" type="string">F1F2F4</properties:property>
+            <properties:property name="address" type="string">37CE0150</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#Tests/Structures/TRITST_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0</properties:property>
+            <properties:property name="expectedValue" type="string">F4</properties:property>
+            <properties:property name="address" type="string">37CE0148</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRITST_RETURN-CODE.listructure#Tests/Structures/TRITST_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRITST</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

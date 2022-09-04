@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.2.v20210203-0313_126?>
+<!--Topaz for Total Test 20.5.2.v20210203-0313_126 2021/11/24 14:26:44-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/TRIRPT_OUTFILE_HDR_LINE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/TRIRPT_OUTFILE_HDR-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_HDR-LINE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_HDR-LINE.listructure#HDR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TRIRPT_OUTFILE_HDR-LINE.listructure#HDR_LINE.HDR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

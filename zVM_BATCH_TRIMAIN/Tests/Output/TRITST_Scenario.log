@@ -1,0 +1,39 @@
+15:22:58.645 INFO      TOPAZ            ***************************************
+15:22:58.646 INFO      TOPAZ            ** Execution from Topaz with options **
+15:22:58.646 INFO      TOPAZ            ***************************************
+15:22:58.646 INFO      TOPAZ            Using repository: false
+15:22:58.646 INFO      TOPAZ            ***************************************
+15:22:58.647 INFO      Engine           Test Scenario execution started
+15:22:58.647 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 10.10.13.10:13007
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.13.10
+  Server port                   : 13007
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : SJPKTT0
+  Use Repository Server         : false
+15:22:58.648 INFO      Engine           Setting variables from context and context data extensions
+15:22:58.648 INFO      Engine             id: environmentId      value: 10.10.13.10:13007
+15:22:58.648 INFO      Engine             id: environmentType    value: BATCH
+15:22:58.648 INFO      Engine             id: userId             value: SJPKTT0
+15:22:58.648 INFO      Engine             id: accountingInfo     value: 
+15:22:58.649 INFO      Unittest         Interpreting Unittest of module: TRITST testscenario path: TRITST_Scenario.testscenario
+15:22:58.666 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/Compuware/Workbench/workbench_20.05.02_AXA/zVM_BATCH_TRIMAIN/Tests/JCL/TTTRUNNER.jcl
+15:23:08.708 INFO      zVM_HCIISPT      Sending Job execution request to Host 
+15:23:14.632 INFO      zVM_HCIISPT      Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SJPKTT#1(J0893345) ended with return code: 0000
+  Job name       : SJPKTT#1
+  Job id         : J0893345
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+15:23:19.235 INFO      Unittest         Execution completed
+15:23:19.235 INFO      Engine           Test Scenario execution ended

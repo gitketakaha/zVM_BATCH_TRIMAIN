@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.2.v20210203-0313_126?>
+<!--Topaz for Total Test 20.5.2.v20210203-0313_126 2021/11/24 14:26:53-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC.SIDE_A">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC.SIDE_B">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC.SIDE_C">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

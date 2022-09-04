@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.2.v20210203-0313_126?>
+<!--Topaz for Total Test 20.5.2.v20210203-0313_126 2021/11/24 14:26:44-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/TRIRPT_TABLE-OF-NAMES-N-CNTRS.listructure">
+  <listructure:struct id="TABLE_OF_NAMES_N_CNTRS" name="TABLE_OF_NAMES_N_CNTRS">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">100</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">100</properties:property>
+    </properties:properties>
+    <listructure:array id="TABLE_OF_NAMES_N_CNTRS.N_N_C" length="4" name="N_N_C">
+      <properties:properties>
+        <properties:property name="occurs" type="number">4</properties:property>
+        <properties:property name="displayLength" type="number">25</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">25</properties:property>
+      </properties:properties>
+      <listructure:struct id="TABLE_OF_NAMES_N_CNTRS.N_N_C.N_N_C" name="N_N_C">
+        <properties:properties>
+          <properties:property name="displayLength" type="number">25</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">25</properties:property>
+        </properties:properties>
+        <listructure:string id="TABLE_OF_NAMES_N_CNTRS.N_N_C.N_N_C.T_NAME" length="21" name="T_NAME">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(21)</properties:property>
+            <properties:property name="displayLength" type="number">21</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(21)</properties:property>
+            <properties:property name="storageLength" type="number">21</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="TABLE_OF_NAMES_N_CNTRS.N_N_C.N_N_C.T_CNTR" length="4" name="T_CNTR">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(04)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(04)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+      </listructure:struct>
+    </listructure:array>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,125 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="939" fileStatus="00" id="Tests/Stubs/TRIMAIN_INFILE_FILE_01.stub" stubtype="QSAM" target="INFILE" token="40000">
+  <stub:description>Created: 2021/11/24 14:26:53</stub:description>
+  <stub:stubdata id="0" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F7F8F94040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F6F34040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F3F44040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F4F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3F64040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F5F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F34040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRIMAIN_INFILE_WORK_REC.interface#Tests/Interfaces/TRIMAIN_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMAIN_INFILE_WORK-REC.listructure#Tests/Structures/TRIMAIN_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMAIN_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F44040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

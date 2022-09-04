@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="10.10.13.10:13007" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="SALEJAPN.SC.XV.REPOSIT" ccsystem="BATCH" cctestid="TRITST" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="true">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALEJAPN.SC.BATCH.LOADLIB</Value>
+      <Value>SALEJAPN.SC.BATCH.LOADLIB</Value>
+    </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/TTTRUNNER.jcl</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="TRITST" caseInsensitiveCompare="false" path="TRITST_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="TRITST_Scenario.testscenario" moduleName="TRITST" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

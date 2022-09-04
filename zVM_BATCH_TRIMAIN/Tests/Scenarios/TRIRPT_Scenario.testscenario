@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.2.v20210203-0313_126?>
+<!--Topaz for Total Test 20.5.2.v20210203-0313_126 2021/11/24 14:26:44-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/TRIRPT_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRIRPT" encoding="939" entrypoint="TRIRPT" id="Tests/Scenarios/TRIRPT_Scenario.testscenario%23TRIRPTCase1" target="TRIRPT">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALEJAPN.SC.SRC.DB01</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1637697364000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRIRPT.interface#Tests/Interfaces/TRIRPT.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRIRPT_TABLE-OF-NAMES-N-CNTRS.listructure#Tests/Structures/TRIRPT_TABLE-OF-NAMES-N-CNTRS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIRPT_TABLE-OF-NAMES-N-CNTRS.listructure#TABLE_OF_NAMES_N_CNTRS" id="arg0.TABLE_OF_NAMES_N_CNTRS">
+          <properties:properties>
+            <properties:property name="value" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F2C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F1E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F5C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F2C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F1E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F5C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37CE00D8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/TRIRPT_OUTFILE_FILE_01.stub#Tests/Stubs/TRIRPT_OUTFILE_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/TRIRPT_RETURN-CODE.listructure#Tests/Structures/TRIRPT_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIRPT_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRIRPT</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

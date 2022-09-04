@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.2.v20210203-0313_126?>
+<!--Topaz for Total Test 20.5.2.v20210203-0313_126 2021/11/24 14:26:44-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+  <listructure:struct id="DTL_LINE" name="DTL_LINE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">80</properties:property>
+    </properties:properties>
+    <listructure:string id="DTL_LINE.FILLER0" initial="&quot;NUMBER OF &quot;" length="10" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="value">&quot;NUMBER OF &quot;</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DTL_LINE.DTL_TITLE" length="21" name="DTL_TITLE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(21)</properties:property>
+        <properties:property name="displayLength" type="number">21</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(21)</properties:property>
+        <properties:property name="storageLength" type="number">21</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DTL_LINE.FILLER1" initial="     " length="5" name="FILLER1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(05)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(05)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="DTL_LINE.DTL_CNTR" length="5" name="DTL_CNTR">
+      <properties:properties>
+        <properties:property name="picture" type="string">Z(05)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">edited-numeric</properties:property>
+        <properties:property name="mask" type="string">Z(05)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="DTL_LINE.FILLER2" initial="                                       " length="39" name="FILLER2">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(39)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">39</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(39)</properties:property>
+        <properties:property name="storageLength" type="number">39</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

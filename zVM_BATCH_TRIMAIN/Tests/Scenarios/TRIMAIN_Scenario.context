@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="10.10.13.10:13007" logLevel="VERBOSE" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/TTTRUNNER.jcl</Value>
+    </Parameter>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALEJAPN.SC.BATCH.LOADLIB</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="TRIMAIN" caseInsensitiveCompare="false" path="TRIMAIN_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="TRIMAIN_Scenario.testscenario" moduleName="TRIMAIN" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

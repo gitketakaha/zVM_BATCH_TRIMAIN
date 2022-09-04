@@ -1,0 +1,37 @@
+22:52:23.561 INFO      TOPAZ            ***************************************
+22:52:23.562 INFO      TOPAZ            ** Execution from Topaz with options **
+22:52:23.562 INFO      TOPAZ            ***************************************
+22:52:23.562 INFO      TOPAZ            Using repository: false
+22:52:23.562 INFO      TOPAZ            ***************************************
+22:52:23.563 INFO      Engine           Test Scenario execution started
+22:52:23.563 INFO      Engine           Using context settings:
+  Engine Version                : 20.7
+  Environment id                : 10.10.13.10:13007
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.13.10
+  Server port                   : 13007
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : SJPKTT0
+  Use Repository Server         : false
+22:52:23.563 INFO      Engine           Setting variables from context and context data extensions
+22:52:23.563 INFO      Engine             id: environmentId      value: 10.10.13.10:13007
+22:52:23.564 INFO      Engine             id: environmentType    value: BATCH
+22:52:23.564 INFO      Engine             id: userId             value: SJPKTT0
+22:52:23.564 INFO      Engine             id: accountingInfo     value: 
+22:52:23.565 INFO      Unittest         Interpreting Unittest of module: TRIMAIN testscenario path: TRIMAIN_Scenario.testscenario
+22:52:23.569 TRACE     Unittest         Initialising Total Test runner...
+22:52:23.575 DEBUG     Unittest         Getting TTTRUNNR loadlib version
+22:52:23.575 TRACE     Unittest         TTT Runner load library is not defined for the host connection. Now looking for it in the static runner JCL
+22:52:24.595 TRACE     Unittest         TTTRUNNR PTF level: 
+22:52:24.610 DEBUG     Unittest         Custom JCL skeleton used, since TTTRUNNER.jcl exists in the JCL directory: C:/Users/ketakaha/Compuware/Workbench/@Demo_workspace/zVM_BATCH_TRIMAIN/Tests/JCL/TTTRUNNER.jcl
+22:52:24.612 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/Compuware/Workbench/@Demo_workspace/zVM_BATCH_TRIMAIN/Tests/JCL/TTTRUNNER.jcl
+22:52:24.613 DEBUG     Unittest         Building binary files for test scenario: TRIMAIN_Scenario.testscenario in project Tests
+22:52:37.744 ERROR     Engine           The value of the Total Test TTTRunner dataset for the property 'lpar_tttrunner_lib' must be set for the HCI connection, or the JCL template must be updated to have the location hardcoded.
+22:52:37.745 ERROR     Engine           An error occurred. Now stopping the execution.
+22:52:37.746 INFO      Engine           Test Scenario execution ended

@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="939" fileStatus="00" id="Tests/Stubs/TRIRPT_OUTFILE_FILE_01.stub" stubtype="QSAM" target="OUTFILE" token="20000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: 2021/11/24 14:26:43</stub:description>
+  <stub:stubdata id="0" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_HDR_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_HDR_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_HDR-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_HDR-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_HDR-LINE.listructure#HDR_LINE" id="arg0.HDR_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">5C5C5C40E3D9C9C1D5C7D3C540D9C5D7D6D9E3405C5C5C404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_BLANK_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#DTL_LINE" id="arg0.DTL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">D5E4D4C2C5D940D6C640C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2404040404040404040F2404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#DTL_LINE" id="arg0.DTL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">D5E4D4C2C5D940D6C640C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040404040404040404040F1404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#DTL_LINE" id="arg0.DTL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">D5E4D4C2C5D940D6C640E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040404040404040404040F5404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#DTL_LINE" id="arg0.DTL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">D5E4D4C2C5D940D6C640C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040404040404040404040F3404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_BLANK_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="OUTFILE">
+    <stub:interface>../Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface#Tests/Interfaces/TRIRPT_OUTFILE_DTL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#Tests/Structures/TRIRPT_OUTFILE_DTL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIRPT_OUTFILE_DTL-LINE.listructure#DTL_LINE" id="arg0.DTL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">D5E4D4C2C5D940D6C640C9D5D7E4E340D9C5C3D6D9C4E240404040404040404040404040404040F1F1404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>
